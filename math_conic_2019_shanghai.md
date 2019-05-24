@@ -18,18 +18,25 @@
 
 图形|标准方程|焦点坐标|准线方程|其它内容
 ---|----|----|----|---
-![image](parabola_1.png)|$y^2=2px (p>0)$|($\frac{p}{2}$,0)|$x=-\frac{p}{2}$|
-![image](parabola_2.png)|$y^2=-2px (p>0)$|(-$\frac{p}{2}$,0)|$x=\frac{p}{2}$|
-![image](parabola_3.png)|$x^2=2py (p>0)$|(0,$\frac{p}{2}$)|$y=-\frac{p}{2}$|
-![image](parabola_4.png)|$x^2=-2py (p>0)$|(0,-$\frac{p}{2}$)|$y=\frac{p}{2}$|
+![image](images\parabola_1.png)|$y^2=2px (p>0)$|($\frac{p}{2}$,0)|$x=-\frac{p}{2}$|
+![image](images\parabola_2.png)|$y^2=-2px (p>0)$|(-$\frac{p}{2}$,0)|$x=\frac{p}{2}$|
+![image](images\parabola_3.png)|$x^2=2py (p>0)$|(0,$\frac{p}{2}$)|$y=-\frac{p}{2}$|
+![image](images\parabola_4.png)|$x^2=-2py (p>0)$|(0,-$\frac{p}{2}$)|$y=\frac{p}{2}$|
 
 #### 几何意义
 
 平面中，到一个定点与到一条定直线的距离相等的图形就是抛物线。其中定点就是焦点$F$，定直线就是准线$l$。
 
+![image](images/parabola(2).png)
+
+
 #### 物理意义
 
 在抛物线焦点放置一个点光源，通过抛物面反射后成为平行线折射出去。
+
+![image](images/parabola(2).jpg)
+![image](images/parabolic_reflector(2).jpg)
+![image](images/78431210(2).jpg)
 
 #### 举例
 
@@ -39,15 +46,15 @@ J1P1T5 （4分）
 
 J2P7T8 (5分)
 
-已知抛物线C:$y^2=2px(p>0)$的焦点为F, 点M在C上，|MF|=10,若以MF为直径的圆过点（0，4），则C的方程是_______________________________
+已知抛物线C：$y^2=2px(p>0)$的焦点为F, 点M在C上，|MF|=10,若以MF为直径的圆过点（0，4），则C的方程是_______________________________
 
 
 ### 双曲线 Hyperbola
 
 图形|标准方程|焦点坐标|顶点|准线方程|渐近线
 ---|----|----|----|---|---
-![image](hyperbola_1.png)|$\frac{x^2}{a^2} - \frac{y^2}{b^2}=1(a>0,b>0)$|($\pm c$,0),($c^2=a^2+b^2$)|($\pm a$,0)|$x=\pm\frac{a^2}{c}$|$\frac{x}{a}\pm\frac{y}{b}=0$
-![image](hyperbola_2.png)|$\frac{y^2}{a^2} - \frac{x^2}{b^2}=1(a>0,b>0)$|(0,$\pm c$),($c^2=a^2+b^2$)|(0,$\pm a$)|$y=\pm\frac{a^2}{c}$|$\frac{y}{a}\pm\frac{x}{b}=0$
+![image](images\hyperbola_1.png)|$\frac{x^2}{a^2} - \frac{y^2}{b^2}=1(a>0,b>0)$|($\pm c$,0),($c^2=a^2+b^2$)|($\pm a$,0)|$x=\pm\frac{a^2}{c}$|$\frac{x}{a}\pm\frac{y}{b}=0$
+![image](images\hyperbola_2.png)|$\frac{y^2}{a^2} - \frac{x^2}{b^2}=1(a>0,b>0)$|(0,$\pm c$),($c^2=a^2+b^2$)|(0,$\pm a$)|$y=\pm\frac{a^2}{c}$|$\frac{y}{a}\pm\frac{x}{b}=0$
 
 #### 几何意义
 
@@ -62,8 +69,8 @@ $\frac{x^2}{a^2}+\frac{y^2}{(ib)^2}=1$
 
 标准方程|参数方程|参数
 ----|-----|-----
-$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$|$x=asec\theta, y=btan\theta$|$a>0,b>0$
-$\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$|$y=asec\theta, x=btan\theta$|$a>0,b>0$
+$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$|$x=a\sec\theta, y=b\tan\theta$|$a>0,b>0$
+$\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$|$y=a\sec\theta, x=b\tan\theta$|$a>0,b>0$
 
 #### 举例
 
@@ -73,12 +80,12 @@ J2P7T6 （4分）
 
 
 
-### 椭圆Ellipse
+### 椭圆 Ellipse
 
 图形|标准方程|焦点坐标|顶点|准线方程|其它
 ---|----|----|----|---|---
-![image](ellipse_1.png)|$\frac{x^2}{a^2} + \frac{y^2}{b^2}=1(a>b>0)$|($\pm c$,0),($c^2=a^2-b^2$)|($\pm a$,0),(0,$\pm b$)|$x=\pm\frac{a^2}{c}$|
-![image](ellipse_2.png)|$\frac{y^2}{a^2} + \frac{x^2}{b^2}=1(a>b>0)$|(0,$\pm c$),($c^2=a^2-b^2$)|($\pm b$,0),(0,$\pm a$)|$y=\pm\frac{a^2}{c}$|
+![image](images\ellipse_1.png)|$\frac{x^2}{a^2} + \frac{y^2}{b^2}=1(a>b>0)$|($\pm c$,0),($c^2=a^2-b^2$)|($\pm a$,0),(0,$\pm b$)|$x=\pm\frac{a^2}{c}$|
+![image](images\ellipse_2.png)|$\frac{y^2}{a^2} + \frac{x^2}{b^2}=1(a>b>0)$|(0,$\pm c$),($c^2=a^2-b^2$)|($\pm b$,0),(0,$\pm a$)|$y=\pm\frac{a^2}{c}$|
 
 #### 几何意义
 
@@ -86,20 +93,20 @@ J2P7T6 （4分）
 
 离心率$e=\frac{c}{a}, \because c^2=a^2-b^2<a^2, \therefore 0<e<1$
 
-如果a=b，椭圆就是圆。
+如果$a=b$，椭圆就退化成圆，圆的焦点就一个，离心率为0。
 
 #### 参数方程
 
 标准方程|参数方程|参数
 ----|-----|-----
-$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$|$x=acos\theta, y=bsin\theta$|$a>b>0$
-$\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$|$y=acos\theta, x=bsin\theta$|$a>b>0$
+$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$|$x=a\cos\theta, y=b\sin\theta$|$a>b>0$
+$\frac{y^2}{a^2}+\frac{x^2}{b^2}=1$|$y=a\cos\theta, x=b\sin\theta$|$a>b>0$
 
 
 #### 举例
 
 
-圆锥曲线的斜率之积为定值
+**定理：圆锥曲线的斜率之积为定值**
 1. 椭圆顶点$A_1(a,0), A_2(-a,0)$,过原点的直线与椭圆交于B、C两点，P为椭圆上任一点，则
 $k_{PA_1} \times k_{PA_2}$ 为定值，
 $k_{PB} \times k_{PC}$ 也为定值。
@@ -110,23 +117,39 @@ $k_{PB} \times k_{PC}$ 也为定值。
 
 圆就是特殊的椭圆，长半轴=短半轴=半径的椭圆，两个焦点退化成一个焦点就是圆心O。几何含义就是|PO|=r（半径）。写成集合就是{点P| PO距离为定值，称为半径，即|PO|=r>0}，体现在周长上。
 
-**圆饼**的集合就是{点P| PO距离不大于定值r，即|PO| $\le$ r},体现在面积上。
+**圆饼**的集合就是 { 点P| PO距离不大于定值r，即 |PO| $\le$ r },体现在面积上。
 
 有关$\pi$的几个级数之和有：
 
-$$\frac{\pi}{4}=\frac{1}{1}-\frac{1}{3}+\frac{1}{5}+\cdots=\sum_{i=1}^{i=\infty}(\frac{1}{4i-3}-\frac{1}{4i-1})$$
+$$\frac{\pi}{4}=\frac{1}{1}-\frac{1}{3}+\frac{1}{5}+\cdots=\sum_{i=1}^{\infty}(\frac{1}{4i-3}-\frac{1}{4i-1})$$
 
-$$\frac{\pi^2}{6}=\frac{1}{1^2}+\frac{1}{2^2}+\frac{1}{3^2}+\cdots=\sum_{i=1}^{i=\infty} \frac{1}{i^2}$$
+$$\frac{\pi^2}{6}=\frac{1}{1^2}+\frac{1}{2^2}+\frac{1}{3^2}+\cdots=\sum_{i=1}^{\infty} \frac{1}{i^2}$$
 
-### 如何用多项式表示sin(x)?
+### 如何用多项式逼近（或表示） $\sin(x)?$
 
-从方程角度出发，我们知道$sin(x)=0$的解集为$\{0\} \bigcup \{\pm k \pi, k \in N^*\}$.
+从方程角度出发，我们知道$\sin(x)=0$的解集为$\{0\} \bigcup \{\pm k \pi, k \in N^*\}$.
 
-通过多项式乘积可以预测 $a\times x\prod_{i=1}^{i=\infty} (1\pm\frac{x}{k\pi})$ 与 $sin(x)=0$ 有同样的解。
+通过多项式乘积可以预测 
 
-稍作变化，假定$x$ 不等于 $0$, 则$\frac{sinx}{x}=0$与多项式$a\times \prod_{i=1}^{i=\infty} (1\pm\frac{x}{k\pi})$=0有相同的解，两边对$x$取极限，利用$lim_{i\rightarrow 0}\frac{sinx}{x}=1$,可以求得$a=1$.
+$$a\times x\prod_{i=1}^{\infty} (1 + \frac{x}{k\pi})(1 - \frac{x}{k\pi})$$ 
 
-$$\therefore sinx=x\prod_{i=1}^{i=\infty} (1 + \frac{x}{k\pi}) (1 - \frac{x}{k\pi})$$
+与 $\sin(x)=0$ 有同样的解。
+
+稍作变化，假定$x$ 不等于 $0$, 则
+
+$$\frac{\sin x}{x}=0$$
+
+与多项式
+
+$$a\times \prod_{i=1}^{\infty} (1 + \frac{x}{k\pi})(1 - \frac{x}{k\pi})=0$$
+
+有相同的解，两边对$x$取极限，利用著名的极限
+
+$$\lim_{i\rightarrow 0}\frac{\sin x}{x}=1$$
+
+可以求得$a=1$.
+
+$$\therefore \sin(x)=x\prod_{i=1}^{\infty} (1 + \frac{x}{k\pi}) (1 - \frac{x}{k\pi})$$
 
 
 ### 综合题
@@ -135,7 +158,7 @@ J2P9T19 (14分，(1)5分 （2）9分）
 
 定义：在平面内，点P到曲线C上的点距离的最小值称为P到曲线C的距离。
 
-已知：圆M $(x-\sqrt5)^2+y^2=36$及点N(-$\sqrt5$,0), 动点P到圆M的距离与到点N的距离相等，记点P的轨迹为曲线W。
+已知：圆M： $(x-\sqrt5)^2+y^2=36$及点N(-$\sqrt5$,0), 动点P到圆M的距离与到点N的距离相等，记点P的轨迹为曲线W。
 
 （1）求曲线W的方程；
 
@@ -148,7 +171,7 @@ J3P16T20 (16分，（1)4分（2）6分（3）6分）
 
 已知椭圆C：$\frac{x^2}{2}+y^2=1$的左焦点为F，O为坐标原点。
 
-![image](j3p16t20.png)
+![image](images\j3p16t20.png)
 
 （1）设点M为椭圆C上任意一点，求$\overrightarrow {MF} \cdot \overrightarrow {MO}$的最小值；
 

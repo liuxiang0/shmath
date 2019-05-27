@@ -58,7 +58,7 @@ J2P7T8 (5分)
 
 #### 几何意义
 
-平面中，到两个定点的距离之差的绝对值等于常数2a的点的轨迹就是双曲线。其中定点就是焦点$F_1, F_2$，a是双曲线的实半轴, b是双曲线的虚半轴。
+平面中，到两个定点的距离之差的绝对值等于常数$2a$的点的轨迹就是双曲线。其中定点就是焦点$F_1, F_2$，$a$是双曲线的实半轴, $b$是双曲线的虚半轴。
 
 离心率$e=\frac{c}{a}, \because c^2=a^2+b^2>a^2, \therefore e>1$
 
@@ -162,7 +162,7 @@ J2P9T19 (14分，(1)5分 （2）9分）
 
 （1）求曲线W的方程；
 
-（2）若直线$l$与曲线W在$x$轴上、下部分分别交于点P、Q，与$x$轴交于点$T（t,0)（t<0)$, 且|PT|=2|TQ|, 求当$\triangle OPQ$的面积取最大值时直线$l$的方程。
+（2）若直线$l$与曲线W在$x$轴上、下部分分别交于点P、Q，与$x$轴交于点$T（t,0)（t<0)$, 且$|PT|=2|TQ|$, 求当$\triangle OPQ$的面积取最大值时直线$l$的方程。
 
 
 
@@ -179,3 +179,118 @@ J3P16T20 (16分，（1)4分（2）6分（3）6分）
 
 （3）设过点F且不与坐标轴垂直的直线交椭圆C于点A、B两点，椭圆C上是否存在点P，使得$\overrightarrow{AP}=\overrightarrow{OB}$？若存在，求点P得坐标；若不存在，说明理由。
 
+--------------------------
+## 例题解答
+
+* J1P1T5
+【解】首先是化成标准方程，然后从熟悉的标准方程得到焦点坐标，考察抛物线基础知识以及几何基本知识，还有如何根据几何条件，利用代数知识得到轨迹方程。
+
+$\because y = 2 x^2, \therefore x^2 = \frac{1}{2} y, 2p=\frac{1}{2}, p=\frac{1}{4}, c=\frac{p}{2}=\frac{1}{8}, F$ 在y轴正方向上，$\therefore F(0,c)=F(0,\frac{1}{8})$.
+
+设M的坐标为$M(x,y)$, 由题意，M是PF的中点，所以点P的坐标为$P=2M-F=(2x,2y)-F(0,c)=(2x, 2y-c), \because P \in \{(x,y)|y=2x^2\}, \therefore$ 点P满足抛物线方程，即
+
+$$2y-c = 2(2x)^2, y=\frac{c}{2}+4x^2, \therefore y=4x^2+\frac{1}{16}$$
+
+* J2P7T8
+  【解】了解抛物线基本知识焦点，圆的基本知识，以及由此写曲线方程。
+
+  由已知，得到抛物线C的焦点F在x轴正方向上，且$F(\frac{p}{2},0)$, 设A(0,4), 点M(x,y), 由已知可得：
+
+  $$\because M \in C, \therefore y^2=2px$$
+
+  $$\because |MF|=10, \therefore (x-\frac{p}{2})^2+y^2=100$$
+
+  $$\because A \in Circle, \therefore MF \perp MA, k_{MF}\times k_{MA}=-1, \frac{y-4}{x} \dot \frac{0-4}{\frac{p}{2}-0}=-1, px=8(y-4)$$
+
+以上方程组消除x，y，求得p。
+先消除y，$y=\sqrt{2px}$
+
+$$(x+\frac{p}{2})^2 = 100$$
+$$px=8(\sqrt{2px}-4)$$
+
+由题设显然有 $x \ge 0, p \gt 0$, 故
+$x+\frac{p}{2}=10$
+
+$\because (\sqrt{2px}-8)^2 = 0, \therefore 2px = 64$
+
+联立解方程组，不难得到 
+$$p(10-\frac{p}{2})=32, \therefore p_1=16, p_2=4$$
+
+经验算，$y^2=8x, y^2=32x$都是C的方程。
+
+* J2P2T6
+  【解】从双曲线基本方程，得到两焦点坐标，直线与双曲线交点与三角形周长，都是基础知识。
+
+  从已知的双曲线方程，可得两焦点在x轴上，且$a^2=3, b^2=1 \therefore c^2=a^2+b^2=4, c=\pm 2$, 两焦点坐标分别为$F_1(-2,0), F_2(2,0)$, 
+
+  已知P(2,m), 则 $\frac{4}{3}-m^2=1$, 由对称性，取m>0, 有
+  $m=\frac{\sqrt 3}{3}$
+
+  且$PQ \perp F_1F_2, |PQ|=2|PF_2|=\frac{2\sqrt3}{3}$,
+
+  $\because |PF_1| - |PF_2| = 2a, \therefore |PF_1| = \frac{\sqrt 3}{3} + 2 \sqrt 3  = \frac{7\sqrt 3}{3}$
+
+  $\triangle PF_1Q$的周长$=2|PF_1|+|PQ|=\frac{14\sqrt3}{3}+\frac{2\sqrt3}{3} = \frac{16 \sqrt 3}{3}$
+
+  注意：为了加快计算步伐，这里没有采用两点之间的距离公式来求$|PF_1|$.
+
+* J2P9T19
+  【解】本题自定义一个数学概念，通过自定义概念出题，是为了考察学生运用数学知识自创题目，并提高数学运用能力。考察圆和动点，几何上的距离的灵活运用。
+
+  设A为圆M上的任意一点，连接圆M的圆心M与A，显然要在MA上找到一点P，满足|PA|=|PN|，或者假定P满足题设，则有P在MA上，且|PA|=|PN|，所以点P满足：
+  |PM|+|PN|=|PM|+|PA|=|MA|=6, 满足椭圆性质，$\because 2c=|MN|=2\sqrt5, \therefore c=\sqrt 5;\\ \because 2a=6, \therefore a=3; \\ \because c^2 = a^2 - b^2, \therefore b=2$。
+  
+  (1) 左右焦点N，M在$x$轴上，且长半轴和短半轴长分别为3和2的椭圆方程为：
+    $$\frac{x^2}{9}+\frac{y^2}{4}=1$$
+    ![image](images/j2p9T19.png)
+  (2) 对于过x轴上点T(t,0)的直线PQ，可以用截距法设该直线方程为：
+  $x=my+t (t<0)$, 由题设还知 $-3<t$ 才能交椭圆上下于两点P、Q, 联立方程组得到：
+    $$\left \{ \begin{array}{rcl} x=my+t & (1) \\
+      \frac{x^2}{9}+\frac{y^2}{4}=1 & (2) 
+    \end{array}  \right.$$
+    记$P(x_1,y_1), Q(x_2, y_2)$, 由此推出：
+    $$4(my+t)^2+9y^2=36 \\
+      (4m^2+9)y^2+8mty+(4t^2-36)=0$$
+    $$\therefore \left \{ 
+        \begin{array}{rcl}
+        y_1+y_2 = -\frac{8mt}{4m^2+9} & (3) \\ 
+        y1 \cdot y_2 = \frac{4t^2-36}{4m^2+9} & (4) 
+        \end{array} 
+        \right. $$
+
+    又$\because \overrightarrow{PT} = 2 \overrightarrow{TQ}, \\ \therefore (x_1-t, y_1-0)=2(t-x_2,0-y_2)$
+
+    $$\therefore \left \{  \begin{array}{rcl}
+        x_1-t=2t-2x_2 & (5)\\ y_1=-2y_2 & (6)        
+    \end{array}  \right.$$
+
+    由（6）代入（3）、（4），得到：
+    $$-y_2 = -\frac{8mt}{4m^2+9}, \\ -2y_2^2 = \frac{4t^2-36}{4m^2+9}$$
+
+    $$\therefore 2(\frac{8mt}{4m^2+9})^2=\frac{4t^2-36}{4m^2+9}$$
+    解得
+    $$m^2 = \frac{9-t^2}{4(t^2-1)}, \because m^2 \ge 0, \therefore 1<t^2<9$$
+
+    从而得到
+
+    $$y_2^2 = \frac{18-2t^2}{4m^2+9} = \frac{2(9-t^2)}{4 \times \frac{9-t^2}{4(t^1-1)}+9}=\frac{(t^2-1)(9-t^2)}{4t^2}$$
+
+    因为$\triangle OPQ$ 的底OT已知，故三角形的面积等于
+    $$S_{\triangle {OPQ}} = \frac{1}{2}|t||y_1-y_2|\\
+    =\frac{3}{2}|t||y_2|=\frac{3}{2} \sqrt{t^2 y_2^2}\\
+    =\frac{3}{4} \sqrt{-(t^2-5)^2+16}$$
+
+    当$t^2=5, t=-\sqrt 5<0$时，上述面积最大，此时，$m^2 = \frac{9-5}{4(5-1)} = \frac{1}{4}, m=\pm \frac{1}{2}$。
+    得到直线方程为 $l \colon x=\pm \frac{1}{2} y-\sqrt5$,  $y = \pm 2(x+\sqrt 5)$.
+
+特点：求最值的计算量较大，需要一些技巧，时刻关注最终结果，减少不必要的运算。
+
+* J3P16T20
+  椭圆综合题，考察最小值问题，直线与圆相切问题，等等
+
+  【解】设点$M(x_0,y_0)$, 已知椭圆的$a^2=2, b^2 =1$ ,故 $c^2=a^2-b^1=2-1=1
+  \therefore c= \pm 1, F(-1,0)$,
+
+  $\overrightarrow{MF} \cdot \overrightarrow{MO}=(\overrightarrow{MO}+\overrightarrow{OF}) \cdot \overrightarrow{MO} =\overrightarrow{MO}^2+\overrightarrow{OF}\cdot\overrightarrow{MO}=x_0^2+y_0^2+x_0=\frac{1}{2}x_0^2+x_0+1, x_0 \in [-\sqrt2,\sqrt2]$
+
+  当$x_0=-1$时，上式取最小值$\frac{1}{2}$。

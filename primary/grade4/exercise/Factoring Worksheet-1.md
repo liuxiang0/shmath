@@ -1,6 +1,6 @@
-# Factoring Worksheet
+# Factoring Worksheet 因数练习-1
 
-## List all the factors of the given numbers.
+## List all the factors of the given numbers. 列出下列各数的所有因数
 
     1 a.  	64
 

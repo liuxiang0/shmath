@@ -1,6 +1,6 @@
-#  Factoring Worksheet
+#  Factoring Worksheet 因数练习-3
 
-## Factor the following numbers to their prime factors.
+## Factor the following numbers to their prime factors. 素因数分解
 
 
     

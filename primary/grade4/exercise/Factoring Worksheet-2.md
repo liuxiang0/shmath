@@ -1,6 +1,6 @@
-#  Factoring Worksheet
+#  Factoring Worksheet 因数练习-2
 
-## Factor the following numbers to their prime factors.
+## Factor the following numbers to their prime factors. 将下列各数拆成素数的乘积（素因数）
 
     1 a.  	62
 

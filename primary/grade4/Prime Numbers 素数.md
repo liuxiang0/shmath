@@ -6,7 +6,7 @@ A **Prime Number 素数** is:
 
 The first few prime numbers are: 2, 3, 5, 7, 11, 13, 17, 19 and 23, and we have a prime number chart if you need more.
 
-素数：只能被1和本身整除的整数，也叫质数。
+    素数：只能被1和本身整除的整数，也叫质数。
 
 If we can make it by multiplying other whole numbers it is a **Composite Number 合数**, such as 4=2 $\times$ 2.
 
@@ -20,13 +20,17 @@ If we can make it by multiplying other whole numbers it is a **Composite Number 
 
 "**Prime Factorization 素因数分解**" is finding which prime numbers multiply together to make the original number.
 
+**分解质因数**：一个合数用几个质数相乘的形式表示出来，叫做分解质因数。其中每个质数都是这个合数的质因数。
+
+**哥德巴赫猜想 Goldbach Conjecture**：任何大于4的偶数都可以分解为两个素数之和。
+
 ## 举例
 
 $147 = 3 \times 49= 3\times 7\times 7 = 3\times 7^2$
 
 $90 = 9 \times 10 = 3^2 \times 2\times 5=2\times 3^2 \times 5$
 
-## Factor Tree 因数树，数值分解法
+## Factor Tree 因数树，树枝分解法
 
 a "**Factor Tree 因数树**" can help: find any factors of the number, then the factors of those numbers, etc, until we can't factor any more.
 
@@ -58,5 +62,30 @@ And here is another thing:
 
 $\large 100以内的素数表(共25个素数，占比25\%)$
 
-$\Large 2 \;3\; 5\; 7\; \\11\; 13\; 17\; 19\;\\ 23\; 29\; \\31\; 37\;\\ 41\; 43\; 47\;\\ 53\; 59\;\\ 61\; 67\;\\ 71\; 73\; 79\\ 83\; 89\\ 97$
+|范围|个位1|个位3|个位7|个位9|素数个数|
+|---|---|---|---|---|---|
+|(1,10)|2|3|5|7|4|
+|(10,20)|11|13|17|19|4|
+|(20,30)||23||29|2|
+|(30,40)|31||37||2|
+|(40,50)|41|43|47||3|
+|(50,60)||53||59|2|
+|(60,70)|61||67||2|
+|(70,80)|71|73||79|3|
+|(80,90)||83||89|2|
+|(90,100)|||97||1|
+
+注意：除第一行外，其它行都是对应末尾位。
+
+$\Large
+ \;\;2 \;\;3\;\; 5\;\; 7\; \\
+ 11\; 13\; 17\; 19\;\\ 
+ 23\; 29\; \\
+ 31\; 37\;\\
+ 41\; 43\; 47\;\\ 
+ 53\; 59\;\\ 
+ 61\; 67\;\\ 
+ 71\; 73\; 79\\ 
+ 83\; 89\\ 
+ 97$
 

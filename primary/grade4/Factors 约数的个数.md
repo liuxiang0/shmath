@@ -6,9 +6,10 @@
 
 # 例题1  求360的约数个数
 
-解：$\because 360=2^3\times 3^2 \times 5 \qquad \therefore 360有 (3+1)\times(2+1)\times(1+1)=24$个约数。
+解：  
+$\qquad \because 360=2^3\times 3^2 \times 5  \\ \qquad\therefore 360有 (3+1)\times(2+1)\times(1+1)=24$个约数。
 
 # 例题2  求240的约数个数
 
-解：$\because 240=2^4\times3\times5, \qquad \therefore 240有(4+1)\times(1+1)\times(1+1)=20$个约数
-
+解：  
+$\qquad \because 240=2^4\times3\times5,\\ \qquad \therefore 240有(4+1)\times(1+1)\times(1+1)=20$个约数

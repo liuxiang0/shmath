@@ -34,6 +34,8 @@ $90 = 9 \times 10 = 3^2 \times 2\times 5=2\times 3^2 \times 5$
 
 a "**Factor Tree 因数树**" can help: find any factors of the number, then the factors of those numbers, etc, until we can't factor any more.
 
+
+
 ## 短除法
 
 $最小素因数p_1|\underline{待分解的整数}$  
@@ -60,7 +62,7 @@ And here is another thing:
 
 # Prime number chart 素数表
 
-$\large 100以内的素数表(共25个素数，占比25\%)$
+$\large \textcolor{red}{100以内的素数表(共25个素数，占比25\%)}$
 
 |范围|个位1|个位3|个位7|个位9|素数个数|
 |---|---|---|---|---|---|
@@ -77,7 +79,7 @@ $\large 100以内的素数表(共25个素数，占比25\%)$
 
 注意：除第一行外，其它行都是对应末尾位。
 
-$\Large
+$\Large Prime\; Numbers\; below\; 100\\ \textcolor{red}{——小于100的素数表——}\\[1em]
  \;\;2 \;\;3\;\; 5\;\; 7\; \\
  11\; 13\; 17\; 19\;\\ 
  23\; 29\; \\

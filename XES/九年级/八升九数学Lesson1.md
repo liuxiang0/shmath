@@ -4,12 +4,12 @@
 
 1. 定义
     
-    $Rt\triangle ABC, AB=c, BC=a, AC=b, \angle C=90\degree=\dfrac{\pi}{2}$有如下定义：  
-    - 正弦 $\sin A=\dfrac{a}{c}$ 
-    - 余弦 $\cos A=\dfrac{b}{c}$  
-    - 正切 $\tan A=\dfrac{a}{b}$ 
-    - 余切 $\cot A=\dfrac{b}{a}$  
-    - 直角三角形内角关系：$\angle A+\angle B+\angle C=\pi=180\degree, \angle A+\angle B=90\degree=\dfrac{\pi}{2}$  
+    $Rt\triangle ABC, AB=c, BC=a, AC=b, \angle C=90\degree=\dfrac{\pi}{2}$ 有如下定义：  
+    - 正弦 $\sin A=\dfrac{a}{c}\\[1em]$
+    - 余弦 $\cos A=\dfrac{b}{c}\\[1em]$
+    - 正切 $\tan A=\dfrac{a}{b}\\[1em]$
+    - 余切 $\cot A=\dfrac{b}{a}\\[1em]$
+    - 直角三角形内角关系：$\angle A+\angle B+\angle C=\pi=180\degree, \angle A+\angle B=90\degree=\dfrac{\pi}{2}\\[1em]$
     - 勾股定理: $a^2+b^2=c^2$
 
 2. 特殊锐角三角比计算与性质
@@ -40,9 +40,9 @@
 6. 三角形中位线定理
    
     在任意$ΔBCG$中, $D,H,I$分别是$BC, CG, GB$的中点。则有:   
-    $DH=\dfrac{BG}{2}, DH\parallel BG\\$  
-    $HI=\dfrac{BC}{2}, HI\parallel BC\\$  
-    $DI=\dfrac{CG}{2}, DI\parallel CG$
+    $DH=\dfrac{1}{2}BG, DH\parallel BG\\$  
+    $HI=\dfrac{1}{2}BC, HI\parallel BC\\$  
+    $DI=\dfrac{1}{2}CG, DI\parallel CG$
 
     ![三角形中位线定理](images/三角形中位线定理.png)
 

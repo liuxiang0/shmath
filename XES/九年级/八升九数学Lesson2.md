@@ -27,15 +27,16 @@
     - $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta \mp \sin\alpha\sin\beta$  
     - $\tan(\alpha\pm\beta)=\dfrac{\tan\alpha \pm \tan\beta}{1\mp\tan\alpha\tan\beta}$  
     
-    令 $\alpha=\beta$, 则有同角的二倍角关系如下：   
-    - $\sin 2\alpha=2\sin\alpha\cos\alpha$  
-    - $\cos 2\alpha=\cos^2\alpha-\sin^2\alpha=2\cos^2\alpha-1 = 1-2\sin^2\alpha$  
+    令 $\alpha=\beta$, 则有同角的二倍角关系和万能公式如下：   
+    - $\sin 2\alpha=2\sin\alpha\cos\alpha=\dfrac{2\sin\alpha\cos\alpha}{\cos^2\alpha+\sin^2\alpha}\overset{\div \cos^2\alpha}{====}\dfrac{2\tan\alpha}{1+\tan^2\alpha}$  
+    - $\cos 2\alpha=\cos^2\alpha-\sin^2\alpha=\dfrac{\cos^2\alpha-\sin^2\alpha}{\cos^2\alpha+\sin^2\alpha}\overset{\div \cos^2\alpha}{====}\dfrac{1-\tan^2\alpha}{1+\tan^2\alpha}$
+    - $\cos 2\alpha \overset{\sin^2\alpha=1-\cos^2\alpha}{=======}2\cos^2\alpha-1 \overset{\cos^2\alpha=1-\sin^2\alpha}{=======} 1-2\sin^2\alpha$  
     - $\tan 2\alpha=\dfrac{2\tan\alpha}{1-\tan^2\alpha}$
 
-    令 $t=\tan\alpha \in R$, 则有万能公式：  
-    - $\sin 2\alpha=\dfrac{2t}{1+t^2}$;
-    - $\cos 2\alpha=\dfrac{1-t^2}{1+t^2}$;
-    - $\tan 2\alpha =\dfrac{2t}{1-t^2}$
+    令 $t=\tan\alpha \in R, \alpha \in (-\infty,+\infty) 或 \alpha \in R$, 则有万能公式：  
+    - $\sin 2\alpha=\dfrac{2t}{1+t^2}\\[1em]$
+    - $\cos 2\alpha=\dfrac{1-t^2}{1+t^2}\\[1em]$
+    - $\tan 2\alpha =\dfrac{2t}{1-t^2}\\$
 
     几何证明如下：
 
@@ -49,9 +50,9 @@
     $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$   
 
 5. 正弦定理的几何证明
+   
     ![正弦定理之证明-钝角](images/L2-正弦定理证明外接圆法钝角.png)
     ![正弦定理之证明-锐角](images/L2-正弦定理证明外接圆法锐角.png)
-    
     
     **证明一** 在锐角或钝角三角形$ABC$中，  
     $过点C作AB边上的高CE，交AB于点E\\
@@ -66,16 +67,16 @@
     同上作辅助线，利用三角形面积公式有：  
     $S_{\triangle ABC}=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B=\frac{1}{2}ab\sin C$
 
-    上述等式同时除以 $abc$ ,然后颠倒一下就是正弦定理。
+    上述等式同时除以 $\frac{1}{2}abc$ ,然后颠倒一下就是正弦定理。
 
     **证明三** 外接圆方法,在锐角或钝角三角形$ABC$中  
     作$\triangle ABC$的外接圆，过点$C$作直径$CD$，  
     $交外接圆于点D，连接CD和BD。\\
     \because同弧所对的圆周角相等，\\
     \therefore \angle A=\angle D \\
-    在 Rt\triangle DBC 中，\sin D=\frac{BC}{DC}=\frac{a}{2R}\\
-    \therefore \sin A=\frac{a}{2R}, \implies \frac{a}{\sin A}=2R\\
-    同理可得 \frac{b}{\sin B}=\frac{c}{\sin C}=2R$
+    在 Rt\triangle DBC 中，\sin D=\dfrac{BC}{DC}=\dfrac{a}{2R}\\[1em]
+    \therefore \sin A=\dfrac{a}{2R}, \implies \dfrac{a}{\sin A}=2R\\[1em]
+    同理可得 \dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$
 
 6. 正弦定理变形
 
@@ -84,13 +85,13 @@
     - $a:b:c=\sin A:\sin B:\sin C$
     - $a=2R\sin A, b=2R\sin B, c=2R \sin C$
     - $a\sin B=b\sin A, b\sin C=c\sin B, a\sin C=c\sin A$
-    - $\frac{a+b+c}{\sin A+\sin B+\sin C}=\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}=2R$
+    - $\dfrac{a+b+c}{\sin A+\sin B+\sin C}=\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R\\[1em]$
     - $S_{\triangle ABC}=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$
   
 7. 三类正弦定理解三角形的问题
 
     - 已知三角形的两角与一边，求其他两边和一角
-    - 已知三角形的两边和其中一边所对应的角，求其他边角
+    - 已知三角形的两边和其中一边所对应的角，求其他边角（**要讨论钝角问题**）
     - 运用 $a:b:c=\sin A:\sin B:\sin C$ 解决角之间的转换关系
     - 求三角形面积 $S_{\triangle ABC}=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$
   
@@ -109,7 +110,7 @@
     \dfrac{c^2+a^2-b^2}{2ca}=\cos B\\[1ex]
     \dfrac{a^2+b^2-c^2}{2ab}=\cos C$   
 
-9. 余弦定理几何证明
+9.  余弦定理几何证明
 
     ![余弦定理几何证明](images/L2-余弦定理证明.png)    
     $c=b\cos A+b\cos B$ 
@@ -120,7 +121,8 @@
     $\because CD=a\sin B=b\sin A\\
     \therefore c^2 = a^2+b^2+2ab\cos(A+B)\\$
     $\because A+B+C=\pi, \cos(\pi-C)=-\cos C\\
-    \therefore c^2 = a^2+b^2-2ab\cos C$ 
+    \therefore c^2 = a^2+b^2-2ab\cos C$    
+    同理可得其他两个
 
 10. 余弦定理的作用
     
@@ -137,4 +139,36 @@
   
     还可以求三角形边长取值范围，若对余弦定理加以变形并适当移于其它知识，则使用起来更为方便、灵活。
     
-11. 
+11. 补充海伦公式 Helen
+
+    已知三角形的三边长 $a,b,c$, 记 $p=\dfrac{1}{2}(a+b+c)$, 则有三角形的面积公式为 $S_{\triangle ABC}=\sqrt{p(p-a)(p-b)(p-c)}$
+
+12. 解斜三角形的题型归纳
+
+    关于斜三角形的解法，根据所给的条件及适用的定理可以归纳为如下四种类型：
+
+    (1) **两角及一边**．如已知 $∠A、∠B、a$, 解 $△ABC$, 即求 $b,c,\angle C$．  
+    解法：① 根据 $∠A + ∠B + ∠C = 180°$， 求出 $∠C$；  
+        ② 根据 正弦定理 $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}$, 求两边 $b、c$；  
+
+    (2) **两边及夹角**． 如已知 $a、b、∠C$，解 $△ABC$，即求 $c, \angle A, \angle B$．  
+    解法：① 根据余弦定理 $c^2=a^2+b^2-2ab\cos C$, 求出边 $c$；  
+        ② 这样就已知了三边了，根据余弦定理 $\cos A=\dfrac{b^2+c^2-a^2}{2bc}$，求出 $∠A$；  
+         **不建议用正弦定理，因为 $\sin A=m$ 会产生两个解。**  
+        ③ 由$∠B = 180° − (∠A + ∠C)$， 求出 $∠B$．  
+    
+    (3) **两边及对角**，如已知$a、b、∠A$， 解$△ABC$, 即求 $c, \angle B, \angle C$．  
+    解法：① 根据正弦定理 $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}$，必须经过讨论求出 $∠B$, 因为 $\sin (\pi-\alpha)=\sin \alpha$,所以要考虑钝角的情况；  
+        ② 由$∠C + ∠A + ∠B = 180°$，求出$∠C$；   
+        ③ 由$\dfrac{a}{\sin A}=\dfrac{c}{\sin C}$，求出边 $c$．  
+    
+    或  ① 根据 $a^2=b^2+c^2-2bc\cos A$，求出边 $c$；  
+        ② 由 $\cos B=\dfrac{a^2+c^c-b^2}{2ac}$，求出 $∠B$；  
+        ③ 由$∠A + ∠B + ∠C = 180°$，求出$∠C$．
+    
+    (4) **三边**，如已知三边 $a、b、c$，解$△ABC$, 即求三角．  
+    解法：① 根据余弦定理 $\cos A=\dfrac{b^2+c^2-a^2}{2bc}$,求出$∠A$；  
+        ② 根据余弦定理 $\cos B=\dfrac{a^2+c^2-b^2}{2ac}$，求出 $∠B$；  
+        ③ 由$∠C = 180° − (∠A + ∠B)$， 求出$∠C$．  
+
+    

@@ -2,7 +2,16 @@
 
 ## Lesson 2 正余弦定理
 
-1. 三角形三边之间的关系
+1. 三线八角 Parallel Lines
+   ![三线八角](images/三线八角.png)
+
+   - **同位角 Corresponding angles**: ∠(1,5),∠(2,6),∠(3,7),∠(4,8)  
+   - **内错角 Alternate interior angles**: ∠(3,5),∠(4,6)
+   - **外错角 Alternate exterior angles**：∠(1，7)，∠(2，8)
+   - **同旁内角 Interior angles on the same side of the transversal**: ∠(3,6), ∠(4,5)
+   - **同旁外角 Exterior angles on the same side of the transversal**: ∠(1，8),∠(2,7)
+  
+2. 三角形三边之间的关系
    
     能够构成三角形的三条边，必须满足**三角不等式**。
 
@@ -16,12 +25,12 @@
     $||a|-|b|| \le |a\pm b| \le |a|+|b|$  
     此处的 $a,b,c$ 可以是任意实数，向量或复数。
 
-2. 任意角的三角比($0\degree \cdots 180\degree$)
+3. 任意角的三角比($0\degree \cdots 180\degree$)
 
     单位圆解释正弦、余弦、正切和余切函数的曲线   
     分析不同三角比的变化趋势
 
-3. 两角和差公式及其几何证明
+4. 两角和差公式及其几何证明
 
     - $\sin(\alpha\pm\beta)=\sin\alpha\cos\beta \pm \cos\alpha\sin\beta$  
     - $\cos(\alpha\pm\beta)=\cos\alpha\cos\beta \mp \sin\alpha\sin\beta$  
@@ -44,12 +53,12 @@
 
     **令两角和公式中的 $\beta$ 为 $-\beta$, 就可以得到两角差公式**
 
-4. 正弦定理 The Law of Sines
+5. 正弦定理 The Law of Sines
 
     $\triangle ABC, R$ 为三角形外接圆的半径，则有：  
     $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$   
 
-5. 正弦定理的几何证明
+6. 正弦定理的几何证明
    
     ![正弦定理之证明-钝角](images/L2-正弦定理证明外接圆法钝角.png)
     ![正弦定理之证明-锐角](images/L2-正弦定理证明外接圆法锐角.png)
@@ -78,7 +87,7 @@
     \therefore \sin A=\dfrac{a}{2R}, \implies \dfrac{a}{\sin A}=2R\\[1em]
     同理可得 \dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R$
 
-6. 正弦定理变形
+7. 正弦定理变形
 
     主要利用比例性质来进行变形。
 
@@ -88,14 +97,14 @@
     - $\dfrac{a+b+c}{\sin A+\sin B+\sin C}=\dfrac{a}{\sin A}=\dfrac{b}{\sin B}=\dfrac{c}{\sin C}=2R\\[1em]$
     - $S_{\triangle ABC}=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$
   
-7. 三类正弦定理解三角形的问题
+8. 三类正弦定理解三角形的问题
 
     - 已知三角形的两角与一边，求其他两边和一角
     - 已知三角形的两边和其中一边所对应的角，求其他边角（**要讨论钝角问题**）
     - 运用 $a:b:c=\sin A:\sin B:\sin C$ 解决角之间的转换关系
     - 求三角形面积 $S_{\triangle ABC}=\frac{1}{2}ab\sin C=\frac{1}{2}bc\sin A=\frac{1}{2}ac\sin B$
   
-8. 余弦定理 The Law of Cosines
+9.  余弦定理 The Law of Cosines
     
     - 余弦定理，是欧几里得平面几何学基本定理。  
     - 余弦定理，是描述三角形中三边长度与一个角的余弦值关系的数学定理，是勾股定理在一般三角形情形下的推广，勾股定理是余弦定理的特例。
@@ -110,7 +119,7 @@
     \dfrac{c^2+a^2-b^2}{2ca}=\cos B\\[1ex]
     \dfrac{a^2+b^2-c^2}{2ab}=\cos C$   
 
-9.  余弦定理几何证明
+10. 余弦定理几何证明
 
     ![余弦定理几何证明](images/L2-余弦定理证明.png)    
     $c=b\cos A+b\cos B$ 
@@ -124,7 +133,7 @@
     \therefore c^2 = a^2+b^2-2ab\cos C$    
     同理可得其他两个
 
-10. 余弦定理的作用
+11. 余弦定理的作用
     
     余弦定理，是揭示三角形边角关系的重要定理，直接运用它可解决下列问题：
     - 已知三角形的三条边长，可求三角
@@ -139,11 +148,11 @@
   
     还可以求三角形边长取值范围，若对余弦定理加以变形并适当移于其它知识，则使用起来更为方便、灵活。
     
-11. 补充海伦公式 Helen
+12. 补充海伦公式 Helen
 
     已知三角形的三边长 $a,b,c$, 记 $p=\dfrac{1}{2}(a+b+c)$, 则有三角形的面积公式为 $S_{\triangle ABC}=\sqrt{p(p-a)(p-b)(p-c)}$
 
-12. 解斜三角形的题型归纳
+13. 解斜三角形的题型归纳
 
     关于斜三角形的解法，根据所给的条件及适用的定理可以归纳为如下四种类型：
 

@@ -29,6 +29,14 @@ If we can make it by multiplying other whole numbers it is a **Composite Number 
 
 **分解素因数**：一个合数用几个素数相乘的形式表示出来，叫做分解素因数，其中每个素数都是这个合数的素因数。
 
+## GeoGebra中作程序实现
+
+- 添加乘号文本：text1=\times
+- 添加输入合数框：
+- 对合数框进行因数分解：M_1 = Factors(n)
+- L_1=Zip(power(Element(p, 1), Element(p, 2)), p, M_1)
+- L_2=Append(L_1(1), Sequence(text1 + (L_1(i)), i, 2, Length(L_1)))
+
 ## 哥德巴赫猜想 Goldbach Conjecture
 
 任何大于2的偶数都可以分解为两个素数之和，这是欧拉的表述，被人称为“**关于偶数的哥德巴赫猜想**”或“**强哥德巴赫猜想**”。

@@ -2,11 +2,19 @@
 
 ## Lesson 1 锐角三角比定义和应用
 
+本讲中的数学术语的中英文对照表
+- **直角Right angles** measure 90°   
+- **锐角Acute angles** measure less than 90°
+- **钝角Obtuse angles** measure greater than 90° but less than 180°.
+- **互余Complementary angles** are two angles whose measures add up to 90°
+- **互补Supplementary angles** are two angles whose measures add up to 180°
+- **对顶角Vertical angles** are opposite angles formed by two intersecting lines.
+
 1. 定义
     
     $Rt\triangle ABC, AB=c, BC=a, AC=b, \angle C=90\degree=\dfrac{\pi}{2}$ 有如下定义：  
     - 正弦 $\sin A=\dfrac{a}{c}\\[1em]$
-    - 余弦 $\cos A=\dfrac{b}{c}\\[1em]$
+    - 余弦 $\cos A=\dfrac{b}{c}=\dfrac{adjacent}{hypotenuse}\\[1em]$
     - 正切 $\tan A=\dfrac{a}{b}\\[1em]$
     - 余切 $\cot A=\dfrac{b}{a}\\[1em]$
     - 直角三角形内角关系：$\angle A+\angle B+\angle C=\pi=180\degree, \angle A+\angle B=90\degree=\dfrac{\pi}{2}\\[1em]$
@@ -57,7 +65,11 @@
 
     ![三角形中的平行线定理](images/三角形中平行线定理.png)
 
-8. 经典例题
+8. 勾股定理 Pythagorean Theorem
+   直角三角形中，斜边的平方等于两条直角边的平方和。即 $c^2=a^2+b^2$  
+   常用的勾股数 Pythagorean triples 有 (3,4,5),(5,12,13),(7,24,25),(8,15,17)
+
+9.  经典例题
 
     （1）几何方法计算 $15\degree, 22.5\degree, 18\degree$ 的三角比  
     - $\tan 15\degree=2-\sqrt3$   

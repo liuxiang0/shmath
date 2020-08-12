@@ -62,13 +62,19 @@ If we can make it by multiplying other whole numbers it is a **Composite Number 
 ## 利用短除法求素因数
 
 $最小素因数p_1|\underline{待分解的整数}$  
-$\quad最小素因数p_2|\underline{商}$  
-$\qquad最小素因数p_3|\underline{商}$  
-$\qquad \quad最小素因数p_4|\underline{商}$  
-$\qquad \qquad 最小素因数p_5|\underline{商}$  
-$\qquad \qquad \qquad\cdots\cdots\cdots|\underline{商}$  
-$\qquad \qquad \qquad最小素因数|\underline{1}$  
+$\qquad素因数p_2|\underline{商}$  
+$\qquad素因数p_3|\underline{商}$  
+$\qquad 素因数p_4|\underline{商}$  
+$\qquad 素因数p_5|\underline{商}$  
+$\qquad \quad \;\cdots\cdots|\underline{商}$  
+$\qquad \quad 素因数|\underline{1}$  
 
+**举例**   
+$\qquad2|\underline{210}$  
+$\qquad 3|\underline{105}$  
+$\qquad \;\;5|\underline{35}$  
+$\qquad \quad 7|\underline{7}$  
+$\qquad \quad \;\;|\underline{1}$  
 ## Why find Prime Factors? 为何要素因数分解
 
 A prime number can only be divided by 1 or itself, so it cannot be factored any further!

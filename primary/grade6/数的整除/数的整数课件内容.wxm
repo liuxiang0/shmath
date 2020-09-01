@@ -1,0 +1,126 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 12.01.0 ] */
+
+/* [wxMaxima: title   start ]
+数的整除
+   [wxMaxima: title   end   ] */
+
+/* [wxMaxima: section start ]
+整数
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: subsect start ]
+来源
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+定义
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+实例
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+几何表示——数轴
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: section start ]
+整除
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: subsect start ]
+定义
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+符号
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+被2,3,4,5,6,7,8,9,10,11整除规律
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+整除性质
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+应用实例
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: section start ]
+同余定理与中国剩余定理
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: subsect start ]
+除不尽，余数怎么办？
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+多个数对同一除数取余，余数相同，就是同余定理
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+同一个数对多个除数有不同的余数，就是中国剩余定理
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+实例分析
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: section start ]
+倍数，公倍数，最小公倍数
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: subsect start ]
+来源
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+一个数的倍数，两个或两个以上的数，就是求公倍数
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+公倍数有无穷个，其中最小的那个，就是最小公倍数
+   [wxMaxima: subsect end   ] */
+
+
+/* [wxMaxima: section start ]
+约数，公约数，最大公约数
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: subsect start ]
+一个数的约数或因数
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: subsect start ]
+多个数才有公约数，其中最大的那个，就是最大公约数
+   [wxMaxima: subsect end   ] */
+
+/* [wxMaxima: section start ]
+
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: section start ]
+素数，合数
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: section start ]
+分解素因数（整数的分解）
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: section start ]
+约数个数计算
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: section start ]
+实例分析
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: section start ]
+回家作业，练习题
+   [wxMaxima: section end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

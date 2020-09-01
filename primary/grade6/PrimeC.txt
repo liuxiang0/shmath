@@ -1,0 +1,27 @@
+FactorInteger[n]
+	给出了整数 n 的素数因子列表，以及它们的指数.
+FactorInteger[n,k]
+	部分因式分解，包含 k 个不同的因子.
+
+对于负数，单元{-1,1}  被包括在因子列表中.
+FactorInteger 也对有理数有效. 分母的素因子用负指数给出. ?
+列表 FactorInteger [n,k]中最后一个元素确定部分因式分解后留下的内容.
+FactorInteger[n, GaussianIntegers->True] 在高斯整数上分解因子. ?
+FactorInteger[m+In] 自动作用于高斯整数.
+当必要时，{-1,1}、 {I, 1} 或 {-I, 1} 形式的单元包含在因数列表中.
+FactorInteger[n, Automatic] 只分解出易求的因子.
+FactorInteger 用 PrimeQ 来确定因子是否是素数.
+
+求素因数和它们的指数：
+In[1]:=	FactorInteger[2434500]
+ 
+Out[1]=	{{2,2},{3,2},{5,3},{541,1}}
+ 
+In[1]:=	FactorInteger[10^100 + 1]
+ 
+Out[1]=	{{73,1},{137,1},{401,1},{1201,1},{1601,1},{1676321,1},...}
+
+高斯整数的分解：
+In[1]:=	FactorInteger[5, GaussianIntegers -> True]
+ 
+Out[1]=	{{-i,1},{1+2i,1},{2+i,1}}

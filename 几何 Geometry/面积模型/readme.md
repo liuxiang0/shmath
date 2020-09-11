@@ -12,3 +12,6 @@
    ref\   参考文献 Reference
 
 # 
+
+动画使用manim制作，Blender剪辑。
+感谢3Blue1Brown的数学可视化引擎
